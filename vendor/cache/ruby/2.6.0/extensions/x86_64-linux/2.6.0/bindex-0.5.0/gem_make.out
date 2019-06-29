@@ -1,0 +1,15 @@
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+/usr/bin/ruby -I /usr/lib/ruby/2.6.0 -r ./siteconf20190629-30367-1snkqbi.rb extconf.rb
+creating Makefile
+
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190629-30367-bw0iqk/bindex

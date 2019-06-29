@@ -1,0 +1,17 @@
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bootsnap-1.3.2/ext/bootsnap
+/usr/bin/ruby -I /usr/lib/ruby/2.6.0 -r ./siteconf20190629-30367-1uwplzv.rb extconf.rb
+creating Makefile
+
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+/usr/bin/ld: bootsnap.o: in function `bs_rb_fetch':
+bootsnap.c:(.text+0x750): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+
+current directory: /home/jack/zerohour/vendor/cache/ruby/2.6.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20190629-30367-nezh6y/bootsnap
